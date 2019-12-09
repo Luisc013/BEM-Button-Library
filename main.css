@@ -1,0 +1,16 @@
+.button {
+  padding: 10px 22px;
+  color: #fff;
+  background-color: #060503
+}
+
+.button--flat {
+  border-radius: 6px;
+  background: #777;
+  box-shadow: 2px 4px 2px 1px #232121;
+}
+
+.button--flat:active {
+  box-shadow: none;
+  transform: translateY(4px)
+}
